@@ -23,7 +23,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/body" />
+            app:srcCompat="@drawable/body"
+            android:visibility="visible"/>
 
         <ImageView
             android:id="@+id/imageView8"
@@ -37,7 +38,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/mouth" />
+            app:srcCompat="@drawable/mouth"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView2"
@@ -51,7 +53,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/arms" />
+            app:srcCompat="@drawable/arms"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView4"
@@ -65,21 +68,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/eyebrows" />
-
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="250dp"
-            android:layout_height="300dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/gridLayout"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/eyebrows" />
+            app:srcCompat="@drawable/eyebrows"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView7"
@@ -93,7 +83,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/hat" />
+            app:srcCompat="@drawable/hat"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView5"
@@ -107,7 +98,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/eyes" />
+            app:srcCompat="@drawable/eyes"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView9"
@@ -121,7 +113,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/mustache" />
+            app:srcCompat="@drawable/mustache"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView6"
@@ -135,7 +128,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/glasses" />
+            app:srcCompat="@drawable/glasses"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView10"
@@ -149,7 +143,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/nose" />
+            app:srcCompat="@drawable/nose"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView11"
@@ -163,7 +158,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/shoes" />
+            app:srcCompat="@drawable/shoes"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/imageView3"
@@ -177,7 +173,8 @@
             app:layout_constraintEnd_toStartOf="@+id/gridLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ears" />
+            app:srcCompat="@drawable/ears"
+            android:visibility="gone"/>
 
         <TextView
             android:id="@+id/textView2"
